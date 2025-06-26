@@ -8,9 +8,9 @@ import org.junit.jupiter.api.Test;
 public class MyServiceTest {
 
     @Test
-    public void testExternalAPI() {
+    public void testExternalApi() {
         // Step 1: Mock the external API
-        ExternalApi mockApi = mock(ExternalAPI.class);
+        ExternalAPI mockApi = mock(ExternalAPI.class);
 
         // Step 2: Stub the method
         when(mockApi.getData()).thenReturn("Mock Data");
