@@ -3,7 +3,7 @@ import styles from "../styles/CohortDetails.module.css";
 export const CohortDetails = ({ cohort }) => {
   const { name, startedOn, status, coach, trainer } = cohort;
 
-  // Choose color class based on status
+  
   const statusColorClass =
     status.toLowerCase() === "ongoing" ? styles.ongoing : styles.scheduled;
 
