@@ -1,7 +1,6 @@
 #!/bin/bash
 
->>git --version 
-git version 2.41.0.windows.1
+git --version 
 
 git config --global user.name "Shreya"
 git config --global user.email "Shreya6@gmail.com"
